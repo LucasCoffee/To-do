@@ -1,0 +1,94 @@
+<!DOCTYPE html-5>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="opa" >
+
+    <h1>GERENCIADOR DE TAREFAS</h1>
+
+</header>
+    
+<div id="cabeçalho" class="opa">
+
+        <h2>
+            Crie uma tarefa
+        </h2>
+        
+        <div>
+            <button onclick="mostrar()" id="teste" > 
+                +
+            </button>
+        </div>
+
+</div>
+
+<section id="tarefas">
+    
+    <div id="fazer" class="opa">
+        <div class="num">
+            <h3 id="numTarefasFazer">Tarefas a fazer: </h3><p id="nunFaz" >0</p>
+        </div>
+    </div>
+
+    <div id="atrasados" class="opa">
+        <div class="num">
+            <h3 id="numTarefasAtrasados" >Tarefas iniciadas: </h3><p id="nunIni">0</p>
+        </div>
+    </div>
+
+    <div  id="concluidos" class="opa" >
+        <div class="num">
+            <h3 id="numTarefasConcluidas" >tarefas concluidas: </h3><p id="numCon" >0</p>
+        </div>
+    </div>
+
+    <div id="sups"  class="opa">
+
+        <h1>Crie sua tarefa</h1>
+
+        <div id="paidados">
+
+            <div class="dados" id="divNome">
+                <label for="nome" class="texto" >Nome da tarefa</label>
+                    <input type="text" name="" id="nome">
+            </div>
+    
+            <div class="dados">
+                <label for="tarefa" class="texto">Descrição da tarefa</label>
+                    <input type="text" name="tarefa" id="tarefa" >
+            </div>
+                
+            <div class="dados">
+                <label for="tarefa" class="texto">Data da tarefa</label>
+                    <input type="date" name="data" id="data" required >
+            </div>        
+    
+        </div>
+
+        <div id="divBotao"  >
+
+            <button onclick="receberDados()" >Adicionar tarefa</button>
+            <button onclick="cancelar()">Cancelar</button>
+
+        </div>
+    
+    
+    </div>
+
+</section>
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

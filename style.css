@@ -1,0 +1,268 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+
+header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center 
+}
+
+h1{
+    color: white;
+    font: Courier New, monospace;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+
+    margin: 0px;
+    padding: 10px;
+
+    border-bottom: solid white;
+}
+
+h2{
+    margin-left: 25px;
+    align-self: center;
+
+}
+
+#cabeçalho{
+
+    background-color: rgb(197, 57, 57);
+    margin: 20px;
+
+    height: 100px;
+    width: 97%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+}
+
+#cabeçalho div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabeçalho div button {
+    height: 50px;
+    box-shadow: 7.5px 7.5px 10px rgb(77, 45, 45);
+    width: 100px;
+    font: bolder 20px verdana;
+    border-radius: 5px;
+
+}
+
+#cabeçalho div button:hover {
+
+    transform:  scale(1.075);
+    transition: 0.5s ease-in-out;
+}
+
+#sups{
+
+    background-color: rgb(136, 70, 70);
+    display: none;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    border: solid white;
+
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    padding-bottom: 10px;
+}
+
+#paidados{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+
+    height: 75%;
+    width: 100%;
+}
+
+.dados{
+    width: 90%;
+    height: 27%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font: normal 20px verdana;
+
+    padding: 0px 10px;
+
+    margin: 10px 0px ;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(77, 45, 45);
+
+}
+
+.dados:hover{
+
+    transform:  scale(1.025);
+    transition: 0.5s ease-in-out;
+
+}
+
+#divBotao{
+
+    display: grid;
+    height: 10%;
+    grid-template-columns: 50% 50%;
+    flex-direction: column;
+}
+
+#divBotao button{
+
+    border-radius: 5px;
+    width: 50%;
+    justify-self: center;
+    box-shadow: 1px 1px 5px white;
+}
+
+#divBotao button:hover{
+
+    transform:  scale(1.075);
+    transition: 0.5s ease-in-out;
+
+}
+
+.texto{
+    text-align: left;
+    width: 200px;
+    align-self: center;
+}
+
+.paraHoje{
+    color: rgb(245, 0, 0);
+    font: bolder 15px verdana ;   
+    margin: 5px;
+
+}
+
+#divNome{
+    align-items: center;
+}
+
+input{
+    border-radius: 5px;
+}
+
+#nome{
+    width: 200px;
+}
+
+#tarefa{
+    width: 340px;
+}
+
+.quadradostyle{
+    
+    border-style: solid;
+    margin: 8px;
+
+    height: 20px;
+    width: 20px;
+
+}
+
+#tarefas{
+
+    margin: 20px;
+    border-style: solid;
+    border-color:rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.HN{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(78, 78, 78); 
+    margin: 0px;
+    padding: px;
+}
+
+.titulo{
+
+    background-color: rgb(48, 47, 47);
+    margin: 0px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fazer{
+
+    margin: 10px;
+    border: solid yellow;
+    width: 33%;
+    height: min-content;
+}
+
+#concluidos{
+    margin: 10px;
+    border:solid green;
+    width: 33%;
+    height: min-content;
+
+}
+
+#atrasados{
+    margin: 10px;
+    border: solid rgb(197, 57,57);;
+    width: 33%; 
+    height: min-content;
+
+}
+
+.num{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.num h3, p {
+    margin: 20px 0px 20px 10px;
+
+}
+
+.listaFazer{
+    border: solid yellow;
+    margin: 10px;
+
+} 
+
+.listaConcluidas{
+    margin: 10px;
+    border:solid green;
+
+}
+
+.listaAtrasadas{
+    margin: 10px;
+    border: solid rgb(197, 57,57);;
+
+}
